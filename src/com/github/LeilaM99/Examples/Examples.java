@@ -18,6 +18,11 @@ public class Examples {
             myBook.title = "The Midnight Library";
             myBook.author = "Matt Haig";
             myBook.read();
+
+            Employee emp = new Employee();
+            emp.name = "Lily";
+            emp.position = "Developer";
+            emp.work();
         }
 
 
@@ -51,8 +56,20 @@ public class Examples {
         }
     }
 
+//  Ex4
+    static class Employee {
+    String name;
+    String position;
 
+    void work() {
+        System.out.println(name + " is working as a " + position);
     }
+    }
+
+
+
+
+}
 
 
 
