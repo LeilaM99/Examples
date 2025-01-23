@@ -13,6 +13,11 @@ public class Examples {
             myLaptop.brand = "ASUS";
             myLaptop.model = "FX502VM";
             myLaptop.powerOn();
+
+            Book myBook = new Book();
+            myBook.title = "The Midnight Library";
+            myBook.author = "Matt Haig";
+            myBook.read();
         }
 
 
@@ -29,12 +34,22 @@ public class Examples {
     }
 //  Ex2
     static class Laptop {
-        String brand;
-        String model;
+    String brand;
+    String model;
 
-        void powerOn() {
-            System.out.println(brand + " " + model + " is powering on.");
+    void powerOn() {
+        System.out.println(brand + " " + model + " is powering on.");
+    }
+}
+//  Ex3
+    static class Book {
+        String title;
+        String author;
+
+        void read() {
+            System.out.println("Reading " + title + " by " + author);
         }
+    }
 
 
     }
@@ -42,5 +57,5 @@ public class Examples {
 
 
 
-}
+
 
