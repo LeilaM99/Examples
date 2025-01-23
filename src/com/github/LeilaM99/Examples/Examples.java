@@ -23,6 +23,12 @@ public class Examples {
             emp.name = "Lily";
             emp.position = "Developer";
             emp.work();
+
+            Course course1 = new Course();
+            course1.courseName = "JAVA-Moho Edition";
+            course1.credits = 3;
+            course1.displayCourseInfo(); //
+
         }
 
 
@@ -63,6 +69,16 @@ public class Examples {
 
     void work() {
         System.out.println(name + " is working as a " + position);
+    }
+    }
+
+//  EX5
+    static class Course {
+    String courseName;
+    int credits;
+
+    void displayCourseInfo() {
+        System.out.println("Course: " + courseName + ", Credits: " + credits);
     }
     }
 
