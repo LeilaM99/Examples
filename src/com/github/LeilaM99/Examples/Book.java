@@ -4,7 +4,7 @@ public class Book {
         String title;
         String author;
 
-        void read() {
+        public void read() {
             System.out.println("Reading " + title + " by " + author);
         }
 

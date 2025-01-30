@@ -4,7 +4,7 @@ public class Laptop {
     String brand;
     String model;
 
-    void powerOn() {
+    public void powerOn() {
         System.out.println(brand + " " + model + " is powering on.");
     }
 }

@@ -4,7 +4,7 @@ public class Course {
     String courseName;
     int credits;
 
-    void displayCourseInfo() {
+    public void displayCourseInfo() {
         System.out.println("Course: " + courseName + ", Credits: " + credits);
     }
 }
