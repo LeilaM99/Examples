@@ -4,7 +4,7 @@ public class Employee {
     String name;
     String position;
 
-    public void work() {
-        System.out.println(name + " is working as a " + position);
+    public void work(Employee this) {
+        System.out.println(this.name + " is working as a " + this.position);
     }
 }

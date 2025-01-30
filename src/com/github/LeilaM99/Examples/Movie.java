@@ -4,7 +4,7 @@ public class Movie {
     String title;
     String director;
 
-    void play() {
-        System.out.println("Playing the movie: " + title);
+    public void play(Moviw this) {
+        System.out.println("Playing the movie: " + this.title + "by: " + this.director  );
     }
 }
