@@ -27,63 +27,9 @@ public class Examples {
             Course course1 = new Course();
             course1.courseName = "JAVA-Moho Edition";
             course1.credits = 3;
-            course1.displayCourseInfo(); //
+            course1.displayCourseInfo();
 
         }
-
-
-
-
-//    Ex1
-    static class Movie {
-        String title;
-        String director;
-
-        void play() {
-            System.out.println("Playing the movie: " + title);
-        }
-    }
-//  Ex2
-    static class Laptop {
-    String brand;
-    String model;
-
-    void powerOn() {
-        System.out.println(brand + " " + model + " is powering on.");
-    }
-}
-//  Ex3
-    static class Book {
-        String title;
-        String author;
-
-        void read() {
-            System.out.println("Reading " + title + " by " + author);
-        }
-    }
-
-//  Ex4
-    static class Employee {
-    String name;
-    String position;
-
-    void work() {
-        System.out.println(name + " is working as a " + position);
-    }
-    }
-
-//  EX5
-    static class Course {
-    String courseName;
-    int credits;
-
-    void displayCourseInfo() {
-        System.out.println("Course: " + courseName + ", Credits: " + credits);
-    }
-    }
-
-
-
 
 }
 
